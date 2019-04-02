@@ -9,4 +9,5 @@ Technologies used:<br/>
 2: Redux<br/>
 3: CodeMirror<br/>
 4: NodeJS<br/>
-5: Web Speech API
+5: Web Speech API<br/><br/>
+<img src="https://github.com/piyushpawar26/CodeBolo/blob/master/CodeBoloThirdLook.png" width="70%">
