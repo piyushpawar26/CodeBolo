@@ -6,6 +6,7 @@ used snippets like loops and conditionals.
 
 Technologies used:<br/>
 1: ReactJS<br/>
-2: CodeMirror<br/>
-3: NodeJS<br/>
-4: Web Speech API
+2: Redux<br/>
+3: CodeMirror<br/>
+4: NodeJS<br/>
+5: Web Speech API
