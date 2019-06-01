@@ -1,0 +1,94 @@
+body, code, div, span, i {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #293642;
+}
+
+code {
+    font-family: Consolas, "Courier New", monospace;
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.editor {
+    margin-top: 50px;
+    background-color: #37474f;
+    padding: 25px;
+}
+
+.editor-title {
+    font-weight: bolder;
+    line-height: 50px;
+    font-size: 35px;
+    color: #26a69a;
+    display: inline-block;
+}
+
+.editor-title-hindi {
+    font-size: 85%;
+}
+
+.editor-options {
+    line-height: 50px;
+    float: right;
+}
+
+.material-icons {
+    transform: translateY(6px);
+}
+
+.editor-controllers {
+    line-height: inherit;
+    color: #fff;
+    width: 50px;
+    background-color: inherit;
+    border: none;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.editor-controllers:hover {
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #26a69a;
+}
+
+.editor-body {
+    margin-top: 15px;
+}
+
+.CodeMirror {
+    min-height: 475px;
+    margin-top: 8px;
+}
+
+.editor-tab-label {
+    font-weight: bold;
+}
+
+.tabsIndicator {
+    background-color: #fff;
+}
+
+.toasts-container {
+    min-height: 120px;
+}
+
+@media only screen and (max-width: 400px) {
+    .editor-title {
+        font-size: 30px;
+    }
+}
